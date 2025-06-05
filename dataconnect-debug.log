@@ -1,13 +1,13 @@
-I0605 00:55:35.485933   20060 load.go:37] Reloading schema and connectors...
-I0605 00:55:35.541974   20060 control.go:73] [/emulator/dataconnect fff7] UpdateResources(): done
+I0605 01:17:52.439159   26445 load.go:37] Reloading schema and connectors...
+I0605 01:17:52.505261   26445 control.go:73] [/emulator/dataconnect 1219] UpdateResources(): done
 Schema: sources: schema/schema.gql [3031B] 
 Connector "movies": sources: connector/mutations.gql [2673B] connector/queries.gql [6799B] 
-I0605 00:55:35.608586   20060 codegen.go:82] [connector "movies" dartSdk] Generating sources into "/home/user/firebasedataconnect/lib/movies_connector"
-I0605 00:55:35.608627   20060 dartgen.go:651] Started Dart code generation for connector movies
-I0605 00:55:35.626394   20060 collector.go:107] schema extensions wrote into "/home/user/firebasedataconnect/dataconnect/.dataconnect/schema"
-Generated sources: main/input.gql [44093B] prelude.gql [71531B] main/relation.gql [26641B] main/query.gql [9618B] main/mutation.gql [23905B] main/implicit.gql [2031B] 
-I0605 00:55:35.627470   20060 collector.go:107] connector "movies" dartSdk wrote into "/home/user/firebasedataconnect/lib/movies_connector"
-Generated sources: delete_favorited_movie.dart [2523B] update_review.dart [2652B] list_genres.dart [1304B] get_current_user.dart [6568B] search_all.dart [9059B] list_movies.dart [4995B] list_movies_by_genre.dart [5374B] add_favorited_movie.dart [2362B] add_review.dart [2507B] movies.dart [3905B] README.md [21009B] upsert_user.dart [1927B] delete_review.dart [2232B] get_movie_by_id.dart [7751B] get_actor_by_id.dart [5009B] get_movie_info_for_user.dart [2261B] list_movies_by_partial_title.dart [3187B] 
-I0605 00:55:35.627514   20060 load.go:115] Finished reloading
-I0605 00:55:35.628021   20060 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50003
-I0605 00:55:35.700412   20060 engine.go:170] [/emulator/dataconnect fff7] ExecuteGraphqlRead IntrospectionQuery: succeeded. 
+I0605 01:17:52.575161   26445 codegen.go:82] [connector "movies" dartSdk] Generating sources into "/home/user/firebasedataconnect/lib/movies_connector"
+I0605 01:17:52.575206   26445 dartgen.go:651] Started Dart code generation for connector movies
+I0605 01:17:52.610180   26445 collector.go:107] schema extensions wrote into "/home/user/firebasedataconnect/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [71531B] main/implicit.gql [2031B] main/input.gql [44093B] main/relation.gql [26641B] main/query.gql [9618B] main/mutation.gql [23905B] 
+I0605 01:17:52.613452   26445 collector.go:107] connector "movies" dartSdk wrote into "/home/user/firebasedataconnect/lib/movies_connector"
+Generated sources: add_review.dart [2507B] list_genres.dart [1304B] search_all.dart [9059B] movies.dart [3905B] list_movies_by_genre.dart [5374B] get_current_user.dart [6568B] README.md [21009B] add_favorited_movie.dart [2362B] get_movie_info_for_user.dart [2261B] list_movies_by_partial_title.dart [3187B] upsert_user.dart [1927B] delete_favorited_movie.dart [2523B] update_review.dart [2652B] delete_review.dart [2232B] list_movies.dart [4995B] get_movie_by_id.dart [7751B] get_actor_by_id.dart [5009B] 
+I0605 01:17:52.613496   26445 load.go:115] Finished reloading
+I0605 01:17:52.614036   26445 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50001
+I0605 01:17:52.671707   26445 engine.go:170] [/emulator/dataconnect 1219] ExecuteGraphqlRead IntrospectionQuery: succeeded. 
