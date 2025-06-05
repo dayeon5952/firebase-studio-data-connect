@@ -1,0 +1,34 @@
+{
+    "dataconnect": {
+        "source": "dataconnect"
+    },
+    "emulators": {
+        "dataconnect": {
+            "port": 9403
+        },
+        "ui": {
+            "enabled": false
+        },
+        "singleProjectMode": true
+    },
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "studio-data-connect",
+                    "appId": "1:991696775202:android:fb510b341c86d8999b027b",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "studio-data-connect",
+                    "configurations": {
+                        "android": "1:991696775202:android:fb510b341c86d8999b027b",
+                        "web": "1:991696775202:web:a38ffe8fcb7dc37c9b027b"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "991696775202",
+    "project_id": "studio-data-connect",
+    "storage_bucket": "studio-data-connect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991696775202:android:fb510b341c86d8999b027b",
+        "android_client_info": {
+          "package_name": "com.example.dataconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ljDOViGcyrA98Bxg371PBEJ9WJ1jczs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
